@@ -12,7 +12,7 @@ if num == "1":
     print("Done!")
 if num == "2":
     f = open(runpath + f"/binpython_files/apps/source.config", "w")
-    f.write("http://154.12.37.151:7800/")
+    f.write("http://repo.binpython.org/")
     print("Done!")
 else:
     print('Please enter the correct number (eg "1")')
