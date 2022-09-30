@@ -1,3 +1,4 @@
+import os
 print("""
 BINPython software source switch
 1.Offical Github
@@ -8,14 +9,14 @@ BINPython software source switch
 num = input('Enter a sequence number to switch sources (eg "1"):')
 if num == "1":
     try:
-        os.makedirs("runpath + f"binpython_files/apps")
+        os.makedirs(runpath + f'binpython_files/apps')
     except:
         f = open(runpath + f"binpython_files/apps/source.config", "w")
         f.write("https://raw.githubusercontent.com/xingyujie/binpython-repository/main/")
     print("Done!")
 if num == "2":
     try:
-        os.makedirs("runpath + f"binpython_files/apps")
+        os.makedirs(runpath + f'binpython_files/apps')
     except:
         f = open(runpath + f"binpython_files/apps/source.config", "w")
         f.write("http://repo.binpython.org/")
