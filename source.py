@@ -1,7 +1,7 @@
 import os
 print("""
 BINPython software source switch
-1.Offical Github
+1.Official Github
 2.BINPython Official US Server
 
 ***GitHub restricts large files and prevents abuse, so except for GitHub sources ("1" number), all support large files and third-party packages, we recommend switching non-GitHub sources
